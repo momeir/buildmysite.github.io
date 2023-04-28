@@ -8,7 +8,7 @@
 /* Corps de la page */
 body {
 	font-family: Arial, sans-serif;
-	background-image: url("bg.jpg");
+	background-image: "bg.jpg";
   	background-size: cover;
 }
 
