@@ -8,6 +8,9 @@
 /* Corps de la page */
 body {
 	font-family: Arial, sans-serif;
+	background-image: url("bg.jpg");
+  	background-repeat: no-repeat;
+  	background-size: cover;
 }
 
 /* Barre de navigation */
