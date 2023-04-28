@@ -1,0 +1,156 @@
+/* Réinitialisation */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Corps de la page */
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* Barre de navigation */
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Logo */
+nav .logo img {
+	height: 50px;
+	margin-right: 10px;
+}
+
+/* Liens de navigation */
+nav .nav-links {
+	display: flex;
+	align-items: center;
+}
+
+nav .nav-links a {
+	color: white;
+	margin: 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+nav .nav-links a:hover {
+	color: #999;
+}
+
+/* Bannière avec défilement d'images */
+.banner {
+	position: relative;
+	height: 500px;
+}
+
+.slideshow-container {
+	max-width: 1000px;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.mySlides {
+	display: none;
+}
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Page d'accueil */
+#accueil {
+	margin: 100px auto 0;
+	text-align: center;
+}
+
+#accueil h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+
+#accueil p {
+	font-size: 24px;
+	line-height: 1.5;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+/* Contenu de la page */
+.content {
+	max-width: 1000px;
+	margin: 50px auto;
+	padding: 0 20px;
+}
+
+.content h2 {
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.content ul {
+	list-style: none;
+	padding: 0;
+}
+
+.content ul li {
+	margin-bottom: 10px;
+}
+
+.content ul li a {
+	color: #333;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.2s;
+}
+
+.content ul li a:hover {
+	color: #999;
+}
+
+/* Pied de page */
+footer {
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.logo{
+    display: flex;
+}
